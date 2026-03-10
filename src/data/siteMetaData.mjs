@@ -14,7 +14,7 @@ export const siteMetadata = {
   socialBanner: "/static/homepage.png",
   email: "amitchauhan263871@gmail.com",
   github: "https://github.com/HelenB00",
-  telegram: "https://github.com/BUMBAIYA",
+  telegram: "tg://resolve?domain=HelenB00",
   twitter: "https://twitter.com/amitcha2638",
   linkedin: "https://www.linkedin.com/in/amitchauhan-dev",
   locale: "en-US",
