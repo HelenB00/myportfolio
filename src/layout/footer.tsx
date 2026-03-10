@@ -1,5 +1,5 @@
 import ContactButton from "@/components/contact-form/contact-button";
-import { GithubIcon, LinkedinIcon, TwitterIcon, TelegramIcon } from "@/components/icons";
+import { GithubIcon, TelegramIcon } from "@/components/icons";
 import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 export default function Footer() {
@@ -16,7 +16,7 @@ export default function Footer() {
           target="_blank"
           className="mb-6 cursor-pointer text-center text-2xl font-bold underline sm:text-4xl lg:text-6xl"
         >
-          <span>HelenBradley01031@</span>
+          <span>Helen1031B@</span>
           <br />
           <span>outlook.com</span>
         </a>
@@ -39,7 +39,7 @@ export default function Footer() {
             href={siteMetadata.telegram}
             target="_blank"
             className="h-6 w-6"
-            aria-label="link to Linkedin"
+            aria-label="link to Telegram"
           >
             <TelegramIcon className="text-accent transition-colors duration-150 hover:text-accent-foreground" />
           </a>

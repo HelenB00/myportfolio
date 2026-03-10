@@ -11,6 +11,6 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
     location: "Shanghai, China",
     description:
       // "Relevant courses included Data Structures and Algorithms, Web Design, Cloud Computing, Artificial Neural Network and Database Management.",
-      "Programming Fundamentals, Object-Oriented Programming, Data Structures and Algorithms, Database Systems, Computer Networks, Software Engineering, Web Development."
-  }  
+      "Programming Fundamentals, Object-Oriented Programming, Data Structures and Algorithms, Database Systems, Computer Networks, Web Development.",
+  },
 ];
