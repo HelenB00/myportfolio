@@ -1,5 +1,5 @@
 import ContactButton from "@/components/contact-form/contact-button";
-import { GithubIcon, TelegramIcon } from "@/components/icons";
+// import { GithubIcon, TelegramIcon } from "@/components/icons";
 import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 export default function Footer() {
@@ -26,7 +26,7 @@ export default function Footer() {
       </div>
       <div className="flex w-full flex-col items-center justify-between gap-8 text-center  md:flex-row md:justify-between lg:mx-auto lg:max-w-7xl">
         <span className="text-foreground">©2026 Helen Bradley</span>
-        <div className="flex gap-8">
+        {/* <div className="flex gap-8">
           <a
             href={siteMetadata.github}
             target="_blank"
@@ -43,7 +43,7 @@ export default function Footer() {
           >
             <TelegramIcon className="text-accent transition-colors duration-150 hover:text-accent-foreground" />
           </a>
-        </div>
+        </div> */}
       </div>
     </footer>
   );
